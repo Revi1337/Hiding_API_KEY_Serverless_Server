@@ -6,3 +6,9 @@ from = "/graphql/*"
 to = "/.netlify/functions/github/:splat"
 status = 200
 force = true
+
+[[redirects]]
+from = "/hackthebox/*"
+to = "/.netlify/functions/hackthebox/:splat"
+status = 200
+force = true
