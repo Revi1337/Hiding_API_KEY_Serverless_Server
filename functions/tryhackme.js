@@ -2,6 +2,8 @@ const fetch = require("node-fetch");
 const querystring = require("querystring");
 const stringify = require("../utils/stringify.js");
 
+// https://candid-sorbet-07dfa9.netlify.app/api/user/activity-events?username=revi1337
+
 const TRY_HACK_ME_ORIGIN = "https://tryhackme.com";
 const headers = {
   "Access-Control-Allow-Origin": "*",

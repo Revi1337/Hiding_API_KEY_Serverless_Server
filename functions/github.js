@@ -2,6 +2,8 @@ const fetch = require("node-fetch");
 const querystring = require("querystring");
 const stringify = require("../utils/stringify.js");
 
+// https://candid-sorbet-07dfa9.netlify.app/graphql
+
 const GIT_ORIGIN = "https://api.github.com";
 const headers = {
   "Access-Control-Allow-Origin": "*",

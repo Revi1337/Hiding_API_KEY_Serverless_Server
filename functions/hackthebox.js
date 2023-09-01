@@ -2,6 +2,8 @@ const fetch = require("node-fetch");
 const querystring = require("querystring");
 const stringify = require("../utils/stringify.js");
 
+// https://candid-sorbet-07dfa9.netlify.app/api/v4/profile/activity/1002993
+
 const HACK_THE_BOX_ORIGIN = "https://www.hackthebox.com";
 const headers = {
   "Access-Control-Allow-Origin": "*",

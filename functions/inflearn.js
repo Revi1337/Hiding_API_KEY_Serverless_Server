@@ -2,6 +2,8 @@ const fetch = require("node-fetch");
 const querystring = require("querystring");
 const stringify = require("../utils/stringify.js");
 
+// https://candid-sorbet-07dfa9.netlify.app/api/v2/dashboard/annual-learning?year=2023
+
 const INFLEARN_ORIGIN = "https://account.inflearn.com";
 const headers = {
   "Access-Control-Allow-Origin": "*",
