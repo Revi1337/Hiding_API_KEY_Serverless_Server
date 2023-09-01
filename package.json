@@ -1,0 +1,12 @@
+{
+  "name": "HideAPI",
+  "version": "1.0.0",
+  "description": "Hiding API Redirect Server",
+  "main": "index.js",
+  "author": "revi1337",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "2.6.1",
+    "querystring": "0.2.1"
+  }
+}
