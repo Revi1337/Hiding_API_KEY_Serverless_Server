@@ -27,6 +27,7 @@ exports.handler = async (event) => {
     const response = await fetch(url, {
       headers: { 
         "Content-Type": "application/json; charset=utf-8",
+        "Cookie": `${process.env.INFLEARN_SECRET_COOKIE}`
       },
       credentials: 'include'
     });
