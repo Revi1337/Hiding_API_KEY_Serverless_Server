@@ -12,3 +12,9 @@ from = "/api/v4/profile/activity/*"
 to = "/.netlify/functions/hackthebox/:splat"
 status = 200
 force = true
+
+[[redirects]]
+from = "/api/user/activity-events/*"
+to = "/.netlify/functions/tryhackme/:splat"
+status = 200
+force = true
