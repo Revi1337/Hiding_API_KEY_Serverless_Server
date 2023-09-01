@@ -8,7 +8,7 @@ status = 200
 force = true
 
 [[redirects]]
-from = "/1002993/*"
+from = "/api/v4/profile/activity/*"
 to = "/.netlify/functions/hackthebox/:splat"
 status = 200
 force = true

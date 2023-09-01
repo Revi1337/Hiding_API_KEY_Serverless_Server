@@ -2,7 +2,7 @@ const fetch = require("node-fetch");
 const querystring = require("querystring");
 const stringify = require("../utils/stringify.js");
 
-const HACK_THE_BOX_ORIGIN = "https://www.hackthebox.com/api/v4/profile/activity";
+const HACK_THE_BOX_ORIGIN = "https://www.hackthebox.com";
 const headers = {
   "Access-Control-Allow-Origin": "*",
   "Content-Type": "application/json; charset=utf-8",
