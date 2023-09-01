@@ -87,3 +87,9 @@ exports.handler = async (event) => {
 // })
 // .then(res => res.json())
 // .then(json => console.log(JSON.stringify(json.data, null, 2)))
+
+
+// Reference
+// https://velog.io/@bigsaigon333/Client-Side%EC%97%90%EC%84%9C-Youtube-API-Key-%EC%88%A8%EA%B8%B0%EA%B8%B0#2-netlify-functions%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-%EB%82%98%EB%A7%8C%EC%9D%98-redirect-server%EB%A5%BC-%EB%A7%8C%EB%93%A4%EC%96%B4%EB%B3%B4%EC%9E%90
+// https://365kim.tistory.com/93
+// https://formason.tistory.com/13
